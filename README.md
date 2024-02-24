@@ -7,7 +7,7 @@ Explore the mesmerizing world of Julia sets. Whether you're a seasoned mathemati
 What are Julia Sets?
 Julia sets are fascinating mathematical objects that emerge from simple iterative processes. They're a key concept in the realm of complex dynamics and have applications in various fields such as computer graphics, art, and even physics.
 
-
+![Fractal](https://github.com/codeordie-prog/JuliaSets/blob/master/src/FractalImages/0.png)
 
 
 Getting Started
