@@ -69,7 +69,7 @@ public class SetsPanel extends JPanel{
 		 * 
 		 * **/
 		
-		for(int i = 0 ; i<points.size();i+=2) { // generates C points
+		for(int i = 0 ; i<points.size();i++) { // generates C points
 			cReal = points.get(i);
 			cImag = points.get(points.size()-1-i);
 			fractal = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB); // for each point an image
@@ -87,7 +87,7 @@ public class SetsPanel extends JPanel{
                     
                     //color
                    color = iterations == maxIterations ? Color.CYAN.getRGB() :
-                	   Color.HSBtoRGB(iterations/256f, 1, iterations/(iterations + 60f));
+                	   Color.HSBtoRGB(iterations/256f, 1, iterations/(iterations + 30f));
                    
                    fractal.setRGB(x, y, color);
                    
